@@ -17,12 +17,23 @@ type ProjectType = {
 
 const projects: ProjectType[] = [
   {
+    id: 10,
+    title: 'Errores frecuentes',
+    type: 'video',
+    thumbnailSrc: '/images/pro10.png',
+    vimeoId: '1052837708',
+    description: 'Lanzamiento de catálogo de productos de la marca Pintorini.',
+    src: 'https://player.vimeo.com/video/',
+    width: 1280,
+    height: 720
+  },
+  {
     id: 1,
     title: 'Lanzamiento de catálogo',
     type: 'video',
     thumbnailSrc: '/images/pro1.png',
     vimeoId: '1044755411',
-    description: 'Lanzamiento de catálogo de productos de la marca Pintorini.',
+    description: 'Campaña de atracción por medio de contenido de valor',
     src: 'https://player.vimeo.com/video/',
     width: 1280,
     height: 720
